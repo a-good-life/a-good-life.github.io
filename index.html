@@ -1,0 +1,48 @@
+---
+layout: default
+title: A Good Life
+---
+<!--<div class="homebg"></div>-->
+<!--<div class="title">
+	hamishl
+</div>-->
+<div class="title">
+  <div id="filters" class="button-group">  
+    <button class="button" data-filter=".mindset"> </button>
+  </div>
+  
+  <div class="button-id">
+  </div>
+  
+  <div id="sorts" class="button-group">  
+    <button class="button" data-sort-by="title"> </button>
+  </div>
+</div>
+
+<div class="grid">
+{% assign goals = site.data.goals | sort: 'priority' %}
+{% assign tasks = site.data.tasks %}
+
+<div class="grid-sizer"></div>
+{% for goals in goals %}
+  	<div class="card {{ goals.category }}">
+      <h3 class="card-category {{ goals.category }}">{{ goals.category }}</h3>
+    		<h1 class="card-title">{{ goals.goal }}</h1>
+    		<div class="card-text">
+          {% for tasks in tasks %}
+            {% if tasks.category == goals.category %}
+              <div class="task">
+                <div class="task-icon"></div>
+                <div class="task-right">
+                  <div contenteditable="true" class="task-text">{{ tasks.task }}</div>
+                  <div class="task-bar"></div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+  	</div>
+
+{% endfor %}
+</div>
+

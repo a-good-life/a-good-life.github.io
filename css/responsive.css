@@ -1,0 +1,43 @@
+/**
+ * iPad width
+ **/
+ @media (max-width:768px) {
+
+  html {
+    font-size:0.65em;  }
+  .button-group {
+    font-size: 1rem;
+  }
+  .card {
+    margin: 1.5em;
+  }
+  .wide { width: 39em; }
+}
+
+/**
+ * iPhone width
+ **/
+@media (max-width:375px) {
+
+  html {
+    transition: 1s;
+    font-size:0.65em;
+  }
+  .logo {
+    padding-top: 1.5em;
+  }
+  .navbar {
+    height: 7.5em;
+  }
+  .button-group {
+    width: 100%;
+    font-size: 1.25rem;
+}
+.button-group:first-child { text-align: center; }
+.button-group:last-child { text-align: center; }
+
+  .card {
+    margin: 0.5em 1em 1em 1em;
+  }
+  .wide { width: 38em; }
+}
