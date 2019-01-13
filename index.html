@@ -31,11 +31,23 @@ title: A Good Life
     		<div class="card-text">
           {% for tasks in tasks %}
             {% if tasks.category == goals.category %}
-              <div class="task">
-                <div class="task-icon"></div>
+              <div class="task c{{ tasks.completion }}">
+
+                <div class="task-icon">
+                  {% if tasks.completion == 100 %}
+                  <i class="material-icons md">done</i>
+                  {% endif %}
+                </div>
+
                 <div class="task-right">
+                  
                   <div contenteditable="true" class="task-text">{{ tasks.task }}</div>
-                  <div class="task-bar"></div>
+
+                  <div class="task-bar-bg">
+                    <div class="task-bar" style="width: calc(0% + 1 * {{  tasks.completion }}%)">
+                    </div>
+                  </div>
+
                 </div>
               </div>
             {% endif %}

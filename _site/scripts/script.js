@@ -1,6 +1,8 @@
-$( ".sidebar" ).on( "mouseover", function() {
-  $( this ).css( "opacity", "1" );
+$( ".card" ).click( function() {
+  $( this ).css( "background-color", "#f00" );
+  console.log("hi");
 });
-$( ".sidebar" ).on( "mouseout", function() {
+$( ".task-icon" ).on( "mouseout", function() {
   $( this ).css( "opacity", "0.2" );
-});*/
+});
+console.log("hix")
