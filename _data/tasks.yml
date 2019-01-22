@@ -27,15 +27,15 @@
 
 - task: Read Fahrenheit 451
   category: learning
-  completion: 0
+  completion: 100
 
 - task: Read Stumbling on Happiness
   category: learning
-  completion: 20
+  completion: 60
 
 - task: Read Dune
   category: learning
-  completion: 0
+  completion: 10
 
 
 ############################################
@@ -84,11 +84,11 @@
 ############################################
 # Friends
 ############################################
-- task: "Plan FEB event with Suffolk"
+- task: Plan FEB event with Suffolk
   category: friends
   completion: 0 
 
-- task: "Plan FEB event with IBM"
+- task: Plan FEB event with IBM
   category: friends
   completion: 0
 
@@ -116,6 +116,6 @@
   category: finance
   completion: 100
 
-- task: Move all Direct Debits to FD - phone HL, 3, Wandsworth, Specsavers
+- task: Move all Direct Debits to FD - phone HL, 3, *Wandsworth, Specsavers
   category: finance
-  completion: 0
+  completion: 75
