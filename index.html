@@ -21,7 +21,7 @@ title: A Good Life
 
 <div class="grid">
 {% assign goals = site.data.goals | sort: 'priority' %}
-{% assign tasks = site.data.tasks %}
+{% assign tasks = site.data.tasks | sort: 'completion' | reverse %}
 
 <div class="grid-sizer"></div>
 {% for goals in goals %}

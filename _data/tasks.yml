@@ -1,9 +1,9 @@
 ############################################
 # Health
 ############################################
-- task: Heal arm - phone clinic
+- task: Heal arm
   category: health
-  completion: 50
+  completion: 75
 
 - task: Gain 1kg per month
   category: health
@@ -13,6 +13,43 @@
   category: health
   completion: 0
 
+############################################
+# Gym
+############################################
+- task: Bench 65kg by end March
+  category: gym
+  completion: 66
+
+- task: Squat 100kg by end March
+  category: gym
+  completion: 70
+
+- task: Deadlift 100kg by end March
+  category: gym
+  completion: 70
+
+- task: Shoulder Press 50kg by end March
+  category: gym
+  completion: 60
+
+- task: Barbell Row 60kg by end March
+  category: gym
+  completion: 66
+
+############################################
+# Sleep
+############################################
+- task: Sleep visualisation strategy
+  category: sleep
+  completion: 0
+
+- task: Don't eat after 8pm
+  category: sleep
+  completion: 0
+
+- task: aaa
+  category: sleep
+  completion: 0
 
 ############################################
 # Learning
@@ -35,7 +72,7 @@
 
 - task: Read Dune
   category: learning
-  completion: 10
+  completion: 66
 
 
 ############################################
@@ -80,6 +117,9 @@
   category: work
   completion: 0
  
+- task: Band 7 by September 2019
+  category: work
+  completion: 10
 
 ############################################
 # Friends
@@ -102,20 +142,20 @@
 ############################################
 - task: Set up monthly £333 LISA deposit
   category: finance
-  completion: 0
+  completion: 100
 
-- task: Set up monthly £266 ISA deposit
+- task: Create Vanguard ISA, monthly £200 deposit
   category: finance
-  completion: 0 
-
-- task: Create Vanguard ISA
-  category: finance
-  completion: 0 
+  completion: 100
 
 - task: Get paid to FD account
   category: finance
   completion: 100
 
-- task: Move all Direct Debits to FD - phone HL, 3, *Wandsworth, Specsavers
+- task: Move all Direct Debits HL; 3; Wandsworth; Specsavers
   category: finance
-  completion: 75
+  completion: 75  
+
+- task: Change FD; Nationwide PINs
+  category: finance
+  completion: 0

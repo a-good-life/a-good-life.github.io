@@ -11,7 +11,7 @@
   priority: 3
 
 - category: learning
-  goal: Read...
+  goal: Read more
   priority: 2
 
 - category: friends
@@ -26,3 +26,10 @@
   goal: Simplify, automate and save £12k in 2019
   priority: 7
 
+- category: sleep
+  goal: Sleep longer and better
+  priority: 8
+
+- category: gym
+  goal: Beat all personal bests by April
+  priority: 4.5
