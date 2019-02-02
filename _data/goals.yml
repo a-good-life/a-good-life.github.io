@@ -6,6 +6,10 @@
   goal: Build out web projects, including using Firebase
   priority: 4
 
+- category: business
+  goal: Invest £500 to build a long-term, successful business
+  priority: 4.5
+
 - category: love
   goal: Fall in love again
   priority: 3
@@ -19,11 +23,11 @@
   priority: 5
 
 - category: work
-  goal: Transition to a Delivery Lead / Architect; lead offshore teams
+  goal: Transition to Offshore Delivery Manager
   priority: 6
 
 - category: finance
-  goal: Simplify, automate and save £12k in 2019
+  goal: Simplify, automate and save £800 per month in 2019
   priority: 7
 
 - category: sleep

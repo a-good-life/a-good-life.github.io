@@ -3,13 +3,17 @@
 ############################################
 - task: Heal arm
   category: health
-  completion: 75
+  completion: 80
 
 - task: Gain 1kg per month
   category: health
   completion: 0
 
 - task: Take multivitamins
+  category: health
+  completion: 0
+
+- task: Drink more water (feel better, better skin)
   category: health
   completion: 0
 
@@ -47,10 +51,6 @@
   category: sleep
   completion: 0
 
-- task: aaa
-  category: sleep
-  completion: 0
-
 ############################################
 # Learning
 ############################################
@@ -72,7 +72,7 @@
 
 - task: Read Dune
   category: learning
-  completion: 66
+  completion: 100
 
 
 ############################################
@@ -96,6 +96,17 @@
 
 - task: Make A Good Life dynamic with Firebase
   category: project
+  completion: 0
+
+############################################
+# Business
+############################################
+- task: Write down potential income sources, with returns
+  category: business
+  completion: 5
+
+- task: Create a business plan
+  category: business
   completion: 0
 
 ############################################
@@ -124,9 +135,9 @@
 ############################################
 # Friends
 ############################################
-- task: Plan FEB event with Suffolk
+- task: Plan MAR event with Suffolk
   category: friends
-  completion: 0 
+  completion: 50
 
 - task: Plan FEB event with IBM
   category: friends
@@ -140,6 +151,10 @@
 ############################################
 # Finance
 ############################################
+- task: Progress to target (£600/£800)
+  category: finance
+  completion: 75
+
 - task: Set up monthly £333 LISA deposit
   category: finance
   completion: 100
