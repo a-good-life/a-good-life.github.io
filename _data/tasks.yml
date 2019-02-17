@@ -5,13 +5,9 @@
   category: health
   completion: 85
 
-- task: Gain 1kg per month
+- task: Track macros daily to gain 1kg per month
   category: health
   completion: 10
-
-- task: Track macros daily
-  category: health
-  completion: 0
 
 - task: Take multivitamins
   category: health
