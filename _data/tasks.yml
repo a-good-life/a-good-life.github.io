@@ -3,9 +3,13 @@
 ############################################
 - task: Heal arm
   category: health
-  completion: 80
+  completion: 85
 
 - task: Gain 1kg per month
+  category: health
+  completion: 10
+
+- task: Track macros daily
   category: health
   completion: 0
 
@@ -22,19 +26,19 @@
 ############################################
 - task: Bench 65kg by end March
   category: gym
-  completion: 66
+  completion: 77
 
 - task: Squat 100kg by end March
   category: gym
-  completion: 70
+  completion: 80
 
 - task: Deadlift 100kg by end March
   category: gym
-  completion: 70
+  completion: 80
 
 - task: Shoulder Press 50kg by end March
   category: gym
-  completion: 60
+  completion: 66
 
 - task: Barbell Row 60kg by end March
   category: gym
@@ -74,17 +78,20 @@
   category: learning
   completion: 100
 
+- task: Read La Belle Sauvage
+  category: learning
+  completion: 50
 
 ############################################
 # Love
 ############################################
 - task: Go on three dates before March
   category: love
-  completion: 0 
+  completion: 33
 
 - task: Take more care of appearance
   category: love
-  completion: 15
+  completion: 30
 
 
 ############################################
@@ -137,7 +144,7 @@
 ############################################
 - task: Plan MAR event with Suffolk
   category: friends
-  completion: 50
+  completion: 75
 
 - task: Plan FEB event with IBM
   category: friends
@@ -169,8 +176,8 @@
 
 - task: Move all Direct Debits HL; 3; Wandsworth; Specsavers
   category: finance
-  completion: 75  
+  completion: 100
 
 - task: Change FD; Nationwide PINs
   category: finance
-  completion: 0
+  completion: 50
