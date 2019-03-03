@@ -3,42 +3,42 @@
 ############################################
 - task: Heal arm
   category: health
-  completion: 85
+  completion: 92
 
-- task: Track macros daily to gain 1kg per month
+- task: Track macros daily to gain 1kg per month (72kg/80kg)
   category: health
-  completion: 10
+  completion: 20
 
 - task: Take multivitamins
   category: health
-  completion: 0
+  completion: 50
 
 - task: Drink more water (feel better, better skin)
   category: health
-  completion: 0
+  completion: 10
 
 ############################################
 # Gym
 ############################################
-- task: Bench 65kg by end March
+- task: Bench 55kg/65kg
   category: gym
   completion: 77
 
-- task: Squat 100kg by end March
+- task: Squat 95kg/100kg
   category: gym
-  completion: 80
+  completion: 90
 
-- task: Deadlift 100kg by end March
+- task: Deadlift 95kg/100kg
   category: gym
-  completion: 80
+  completion: 95
 
-- task: Shoulder Press 50kg by end March
+- task: Shoulder Press 32.5kg/45kg
   category: gym
   completion: 66
 
-- task: Barbell Row 60kg by end March
+- task: Barbell Row 40kg/50kg
   category: gym
-  completion: 66
+  completion: 80
 
 ############################################
 # Sleep
@@ -50,6 +50,10 @@
 - task: Don't eat after 8pm
   category: sleep
   completion: 0
+
+- task: Wear eye mask
+  category: sleep
+  completion: 100
 
 ############################################
 # Learning
@@ -75,6 +79,18 @@
   completion: 100
 
 - task: Read La Belle Sauvage
+  category: learning
+  completion: 100
+
+- task: Read Dune Messiah
+  category: learning
+  completion: 0
+
+- task: Read Prisoners of Geography
+  category: learning
+  completion: 0
+
+- task: Read Factfulness
   category: learning
   completion: 50
 
@@ -140,7 +156,7 @@
 ############################################
 - task: Plan MAR event with Suffolk
   category: friends
-  completion: 75
+  completion: 100
 
 - task: Plan FEB event with IBM
   category: friends
