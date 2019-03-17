@@ -3,11 +3,11 @@
 ############################################
 - task: Heal arm
   category: health
-  completion: 92
+  completion: 95
 
-- task: Track macros daily to gain 1kg per month (72kg/80kg)
+- task: Track macros daily to gain 1kg per month (73kg/80kg)
   category: health
-  completion: 20
+  completion: 30
 
 - task: Take multivitamins
   category: health
@@ -20,25 +20,25 @@
 ############################################
 # Gym
 ############################################
-- task: Bench 55kg/65kg
-  category: gym
-  completion: 77
-
-- task: Squat 95kg/100kg
+- task: Bench 60kg/65kg
   category: gym
   completion: 90
 
-- task: Deadlift 95kg/100kg
+- task: Squat 100kg/100kg
   category: gym
-  completion: 95
+  completion: 100
 
-- task: Shoulder Press 32.5kg/45kg
+- task: Deadlift 100kg/100kg
   category: gym
-  completion: 66
+  completion: 100
 
-- task: Barbell Row 40kg/50kg
+- task: Shoulder Press 37.5kg/45kg
   category: gym
-  completion: 80
+  completion: 83
+
+- task: Dumbbell Row 22kg/25kg
+  category: gym
+  completion: 85
 
 ############################################
 # Sleep
@@ -84,7 +84,7 @@
 
 - task: Read Dune Messiah
   category: learning
-  completion: 0
+  completion: 100
 
 - task: Read Prisoners of Geography
   category: learning
@@ -157,14 +157,6 @@
 - task: Plan MAR event with Suffolk
   category: friends
   completion: 100
-
-- task: Plan FEB event with IBM
-  category: friends
-  completion: 0
-
-- task: Book JAN event with House
-  category: friends
-  completion: 0 
   
 
 ############################################
