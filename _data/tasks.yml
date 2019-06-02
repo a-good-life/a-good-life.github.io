@@ -3,7 +3,7 @@
 ############################################
 - task: Heal arm
   category: health
-  completion: 95
+  completion: 100
 
 - task: Track macros daily to gain 1kg per month (73kg/80kg)
   category: health
@@ -86,9 +86,21 @@
   category: learning
   completion: 100
 
+- task: Read A Hundred Years of Solitude
+  category: learning
+  completion: 100
+
+- task: Read Educated
+  category: learning
+  completion: 25
+
+- task: Read Why We Sleep
+  category: learning
+  completion: 100
+
 - task: Read Prisoners of Geography
   category: learning
-  completion: 0
+  completion: 30
 
 - task: Read Factfulness
   category: learning
