@@ -20,9 +20,9 @@
 ############################################
 # Gym
 ############################################
-- task: Bench 60kg/65kg
+- task: Bench 65kg/65kg
   category: gym
-  completion: 90
+  completion: 100
 
 - task: Squat 100kg/100kg
   category: gym
@@ -32,13 +32,13 @@
   category: gym
   completion: 100
 
-- task: Shoulder Press 37.5kg/45kg
+- task: Shoulder Press 22.5kg/22.5kg
   category: gym
-  completion: 83
+  completion: 100
 
-- task: Dumbbell Row 22kg/25kg
+- task: Dumbbell Row 25kg/25kg
   category: gym
-  completion: 85
+  completion: 100
 
 ############################################
 # Sleep
@@ -92,7 +92,7 @@
 
 - task: Read Educated
   category: learning
-  completion: 25
+  completion: 100
 
 - task: Read Why We Sleep
   category: learning
@@ -100,11 +100,15 @@
 
 - task: Read Prisoners of Geography
   category: learning
-  completion: 30
+  completion: 100
 
 - task: Read Factfulness
   category: learning
   completion: 50
+
+- task: Read Utopia for Realists
+  category: learning
+  completion: 100
 
 ############################################
 # Love
