@@ -5,9 +5,9 @@
   category: health
   completion: 100
 
-- task: Track macros daily to gain 1kg per month (73kg/80kg)
+- task: Track macros daily to gain 1kg per month (72kg/80kg)
   category: health
-  completion: 30
+  completion: 20
 
 - task: Take multivitamins
   category: health
@@ -100,7 +100,15 @@
 
 - task: Read Prisoners of Geography
   category: learning
-  completion: 100
+  completion: 40
+
+- task: Read If Only they Didn't Speak English
+  category: learning
+  completion: 25
+
+- task: Read Sapiens
+  category: learning
+  completion: 10
 
 - task: Read Factfulness
   category: learning
@@ -117,14 +125,11 @@
 ############################################
 # Love
 ############################################
-- task: Go on three dates before March
-  category: love
-  completion: 33
-
-- task: Take more care of appearance
-  category: love
-  completion: 30
-
+#
+#- task: Take more care of appearance
+#  category: love
+#  completion: 30
+#
 
 ############################################
 # Project
@@ -169,7 +174,7 @@
  
 - task: Band 7 by September 2019
   category: work
-  completion: 10
+  completion: 70
 
 ############################################
 # Friends
@@ -193,15 +198,3 @@
 - task: Create Vanguard ISA, monthly £200 deposit
   category: finance
   completion: 100
-
-- task: Get paid to FD account
-  category: finance
-  completion: 100
-
-- task: Move all Direct Debits HL; 3; Wandsworth; Specsavers
-  category: finance
-  completion: 100
-
-- task: Change FD; Nationwide PINs
-  category: finance
-  completion: 50
