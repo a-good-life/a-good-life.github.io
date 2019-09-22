@@ -1,0 +1,207 @@
+[
+  {
+    "task": "Heal arm",
+    "category": "health",
+    "completion": 100
+  },
+  {
+    "task": "Track macros daily to gain 1kg per month (72kg/80kg)",
+    "category": "health",
+    "completion": 20
+  },
+  {
+    "task": "Take multivitamins",
+    "category": "health",
+    "completion": 50
+  },
+  {
+    "task": "Drink more water (feel better, better skin)",
+    "category": "health",
+    "completion": 10
+  },
+  {
+    "task": "Bench 65kg/65kg",
+    "category": "gym",
+    "completion": 100
+  },
+  {
+    "task": "Squat 100kg/100kg",
+    "category": "gym",
+    "completion": 100
+  },
+  {
+    "task": "Deadlift 100kg/100kg",
+    "category": "gym",
+    "completion": 100
+  },
+  {
+    "task": "Shoulder Press 22.5kg/22.5kg",
+    "category": "gym",
+    "completion": 100
+  },
+  {
+    "task": "Dumbbell Row 25kg/25kg",
+    "category": "gym",
+    "completion": 100
+  },
+  {
+    "task": "Sleep visualisation strategy",
+    "category": "sleep",
+    "completion": 0
+  },
+  {
+    "task": "Don't eat after 8pm",
+    "category": "sleep",
+    "completion": 0
+  },
+  {
+    "task": "Wear eye mask",
+    "category": "sleep",
+    "completion": 100
+  },
+  {
+    "task": "Read A Guide to the Good Life",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read Life 3.0",
+    "category": "learning",
+    "completion": 50
+  },
+  {
+    "task": "Read Fahrenheit 451",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read Stumbling on Happiness",
+    "category": "learning",
+    "completion": 60
+  },
+  {
+    "task": "Read Dune",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read La Belle Sauvage",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read Dune Messiah",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read A Hundred Years of Solitude",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read Educated",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read Why We Sleep",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read Prisoners of Geography",
+    "category": "learning",
+    "completion": 40
+  },
+  {
+    "task": "Read If Only they Didn't Speak English",
+    "category": "learning",
+    "completion": 25
+  },
+  {
+    "task": "Read Sapiens",
+    "category": "learning",
+    "completion": 10
+  },
+  {
+    "task": "Read Factfulness",
+    "category": "learning",
+    "completion": 50
+  },
+  {
+    "task": "Read Utopia for Realists",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "Read Bad Blood",
+    "category": "learning",
+    "completion": 100
+  },
+  {
+    "task": "First draft A Good Life",
+    "category": "project",
+    "completion": 100
+  },
+  {
+    "task": "Make A Good Life dynamic with Firebase",
+    "category": "project",
+    "completion": 0
+  },
+  {
+    "task": "Write down potential income sources, with returns",
+    "category": "business",
+    "completion": 5
+  },
+  {
+    "task": "Create a business plan",
+    "category": "business",
+    "completion": 0
+  },
+  {
+    "task": "Blue Prism Prof. Developer Exam",
+    "category": "work",
+    "completion": 100
+  },
+  {
+    "task": "Blue Prism Architect Exam",
+    "category": "work",
+    "completion": 0
+  },
+  {
+    "task": "IBM Architect Course",
+    "category": "work",
+    "completion": 0
+  },
+  {
+    "task": "Build out IBM Object Library",
+    "category": "work",
+    "completion": 0
+  },
+  {
+    "task": "Band 7 by September 2019",
+    "category": "work",
+    "completion": 70
+  },
+  {
+    "task": "Plan MAR event with Suffolk",
+    "category": "friends",
+    "completion": 100
+  },
+  {
+    "task": "Progress to target (£600/£800)",
+    "category": "finance",
+    "completion": 75
+  },
+  {
+    "task": "Set up monthly £333 LISA deposit",
+    "category": "finance",
+    "completion": 100
+  },
+  {
+    "task": "Create Vanguard ISA, monthly £200 deposit",
+    "category": "finance",
+    "completion": 100
+  }
+]

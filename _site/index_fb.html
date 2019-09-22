@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>A Good Life</title>
+      <meta name="viewport" content="width=device-width">
+
+      <!-- ICONS -->
+      <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+      <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
+      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/responsive.css">
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600,700" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <!-- jQuery and Isotope -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+       <script src="/scripts/isotope.pkgd.min.js"></script>
+       <script src="/scripts/isotope.js"></script>
+       <script src="/scripts/script.js"></script>
+
+  </head>
+  <body>
+
+    <div class="site">
+      
+      <div class="navbar">
+        <div class="logo">
+          <a href="/"><i class="material-icons md-48">&#xe87e;</i></a>
+        </div>
+      </div>
+
+      <div class="main">
+      <!-- Main Content -->
+        <!--<div class="homebg"></div>-->
+<!--<div class="title">
+	hamishl
+</div>-->
+<h1 id="bigOne"></h1>
+<!--<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase.js"></script>-->
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+
+<script>
+  // Initialize Firebase
+  //const firebase = require("firebase");
+  // Required for side-effects
+  //require("firebase/firestore");
+
+  var config = {
+    apiKey: "AIzaSyC7PKNmoMfUE2OiP_cKuw0Q-qmuBS8qZzM",
+    authDomain: "a-good-life-hl.firebaseapp.com",
+    databaseURL: "https://a-good-life-hl.firebaseio.com",
+    projectId: "a-good-life-hl",
+    storageBucket: "a-good-life-hl.appspot.com",
+    messagingSenderId: "900664989462"
+  };
+  firebase.initializeApp(config);
+
+  var db = firebase.firestore();
+  /*
+  var bigOne = document.getElementById('bigOne');
+  var dbRef = firebase.database().ref().child('0').child('task');
+  dbRef.on('value', snap => bigOne.innerText = snap.val());*/
+</script>
+
+
+<script>
+function displayGoals() {
+  db.collection("goals")
+    .get()
+    .then(function(querySnapshot) {
+        querySnapshot.forEach(function(doc) {
+            // doc.data() is never undefined for query doc snapshots
+            console.log(doc.id, " => ", doc.data().goal);
+            displayCard(doc.data().category, doc.data().goal);
+        });
+    })
+    .catch(function(error) {
+        console.log("Error getting documents: ", error);
+    });
+}
+
+
+function displayCard(category, goal) {
+  var card = document.createElement("div");
+  card.setAttribute("id","card-".concat(category));
+  card.setAttribute("class","card ".concat(category));
+  var grid = document.getElementById("grid");
+  grid.appendChild(card);
+
+  var card_category = document.createElement("h3");
+  card_category.innerHTML = category.toUpperCase();
+  card_category.setAttribute("class","card-category ".concat(category));
+  card.appendChild(card_category);
+
+  var card_title = document.createElement("h1");
+  card_title.innerHTML = goal;
+  card.appendChild(card_title);
+
+  displayTasks(category);
+
+  var form = document.createElement("form");
+  form.setAttribute("id","form_".concat(category));
+  form.setAttribute("onsubmit","return false;");
+  var form_task = document.createElement("input");
+  form_task.setAttribute("id","form_task_".concat(category));
+  form_task.setAttribute("type","text");
+  var form_submit = document.createElement("input");
+  form_submit.setAttribute("onclick","addNewTask('".concat(category,"');"));
+  form_submit.setAttribute("type","submit");
+  form_submit.setAttribute("value","Add");
+
+  form.appendChild(form_task);
+  form.appendChild(form_submit);
+  card.appendChild(form);
+}
+
+
+function displayTasks(category) {
+  db.collection("tasks").where("category", "==", category)
+      .get()
+      .then(function(querySnapshot) {
+          querySnapshot.forEach(function(doc) {
+              // doc.data() is never undefined for query doc snapshots
+              console.log(doc.id, " => ", doc.data());
+              var task = document.createElement("div");
+              task.setAttribute("class","task-text");
+              var taskcontent = document.createTextNode(doc.data().task);
+              task.appendChild(taskcontent);
+              var card = document.getElementById("card-".concat(category));
+              card.appendChild(task);
+          });
+      })
+      .catch(function(error) {
+          console.log("Error getting documents: ", error);
+      });
+    }
+  
+
+function addNewTask(category) {
+  var task = document.getElementById("form_task_".concat(category)).value;
+  // Add a new document in collection
+  console.log(task, " - ", category);
+  task_id = generateID();
+  db.collection("tasks").doc(Date.now().toString()).set({
+      task: task,
+      completion: 0,
+      category: category
+  })
+  .then(function() {
+      console.log("Document successfully written!");
+      alert("Document successfully written");
+  })
+  .catch(function(error) {
+      console.error("Error writing document: ", error);
+      alert("Error writing document");
+  });
+}
+
+function generateID() {
+  return Math.random().toString(36).substring(2, 32);
+}
+
+</script>
+
+
+
+
+<div class="grid" id="grid">
+      <div class="grid-sizer"></div>
+      <script> displayGoals(); </script>
+</div>
+
+</div>
+
+<div class="title">
+  <div id="filters" class="button-group">  
+    <button class="button" data-filter=".mindset"> </button>
+  </div>
+  
+  <div class="button-id">
+  </div>
+  
+  <div id="sorts" class="button-group">  
+    <button class="button" data-sort-by="title"> </button>
+  </div>
+</div>
+
+<!--FORM and Function to write new task-->
+<!-- 
+<form id="form" onsubmit="return false;">
+    <input type="text" id="userInput_Task" />
+    <input type="submit" value=" + " onclick="addNewTask();" />
+</form>
+ -->
+      </div>
+
+    </div>
+  </body>
+</html>
