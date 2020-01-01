@@ -17,7 +17,7 @@
   {
     "task": "Drink more water (feel better, better skin)",
     "category": "health",
-    "completion": 10
+    "completion": 40
   },
   {
     "task": "Bench 65kg/65kg",
@@ -77,7 +77,7 @@
   {
     "task": "Read Stumbling on Happiness",
     "category": "learning",
-    "completion": 60
+    "completion": 100
   },
   {
     "task": "Read Dune",
@@ -147,7 +147,7 @@
   {
     "task": "Make A Good Life dynamic with Firebase",
     "category": "project",
-    "completion": 0
+    "completion": 25
   },
   {
     "task": "Write down potential income sources, with returns",
@@ -167,7 +167,7 @@
   {
     "task": "Blue Prism Architect Exam",
     "category": "work",
-    "completion": 0
+    "completion": 100
   },
   {
     "task": "IBM Architect Course",
@@ -182,7 +182,7 @@
   {
     "task": "Band 7 by September 2019",
     "category": "work",
-    "completion": 70
+    "completion": 100
   },
   {
     "task": "Plan MAR event with Suffolk",
@@ -192,7 +192,7 @@
   {
     "task": "Progress to target (£600/£800)",
     "category": "finance",
-    "completion": 75
+    "completion": 100
   },
   {
     "task": "Set up monthly £333 LISA deposit",
