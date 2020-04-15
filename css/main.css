@@ -1,6 +1,6 @@
 :root {
   --LightYellow: rgb(245, 243, 238);
-  --DarkBlue: rgb(90, 97, 117);
+  --DarkBlue: rgb(10, 45, 143);
   --Orange: rgb(244, 125, 49);
   --Blue: rgb(100, 164, 217);
   --Pink: rgb(255, 143, 152);
@@ -178,7 +178,7 @@ h3 {
   display: inline-block;
   margin: 2em;
   position: relative;
-  border-radius: 6px;
+  border-radius: 8px;
   border: 2px solid #ccc;
   /*box-shadow: 0px 0px 15px #eee;*/
   box-shadow: 0 8px 16px 0 rgba(34,50,84,.06),inset 0 0 0 1px rgba(112,123,140,.15);
@@ -317,6 +317,13 @@ h3 {
 .card.draft {
   border: 1px dashed #aaa;
 }
+.card.fitness {
+  border-color: var(--DarkBlue);
+}
+.card.entrepreneurship {
+  border-color: var(--Pink);
+}
+
 
 .card-category.work {
   color: var(--Orange);
@@ -335,6 +342,12 @@ h3 {
 }
 .card-category.learning {
   color: purple;
+}
+.card-category.fitness {
+  color: var(--DarkBlue);
+}
+.card-category.entrepreneurship {
+  color: var(--Pink);
 }
 
 

@@ -1,0 +1,35 @@
+- category: health
+  goal: Be stronger, sleep better, slow down and take more care
+  priority: 1
+
+- category: project
+  goal: Build out web projects, including using Firebase
+  priority: 4
+
+- category: business
+  goal: Invest £500 to build a long-term, successful business
+  priority: 4.5
+
+- category: learning
+  goal: Read more
+  priority: 2
+
+- category: friends
+  goal: Reconnect with old friends and nurture new ones
+  priority: 5
+
+- category: work
+  goal: Transition to Offshore Delivery Manager
+  priority: 6
+
+- category: finance
+  goal: Simplify, automate and save £800 per month in 2019
+  priority: 7
+
+- category: sleep
+  goal: Sleep longer and better
+  priority: 8
+
+- category: gym
+  goal: Hit all [A] Goals by end of March
+  priority: 4.5

@@ -1,0 +1,104 @@
+############################################
+# Health
+############################################
+- task: Track macros daily to gain 1kg per month (70kg/80kg)
+  category: health
+  completion: 0
+
+############################################
+# fitness
+############################################
+- task: Run 5k in 20 minutes
+  category: fitness
+  completion: 15
+
+- task: 20 pullups
+  category: fitness
+  completion: 7
+
+- task: 10 one-arm pushups
+  category: fitness
+  completion: 0
+
+- task: 50 squats daily
+  category: fitness
+  completion: 0
+
+############################################
+# Learning
+############################################
+- task: Read Life 3.0
+  category: learning
+  completion: 50
+
+- task: Read Churchill
+  category: learning
+  completion: 0
+
+- task: Read The Wind-up Bird Chronicle
+  category: learning
+  completion: 100
+
+- task: Read Atomic Habits
+  category: learning
+  completion: 0
+
+- task: Read Stumbling on Happiness
+  category: learning
+  completion: 80
+
+- task: Read Prisoners of Geography
+  category: learning
+  completion: 40
+
+- task: Read If Only they Didn't Speak English
+  category: learning
+  completion: 25
+
+- task: Read Sapiens
+  category: learning
+  completion: 10
+
+############################################
+# Project
+############################################
+- task: Finish A Good Life dynamic with Firebase
+  category: project
+  completion: 0
+
+############################################
+# entrepreneurship
+############################################
+- task: Make A Good Life into a proper web-app
+  category: entrepreneurship
+  completion: 5
+
+- task: Potentially leverage freelancers
+  category: entrepreneurship
+  completion: 0
+
+- task: Include logins, goal suggestions, charting
+  category: entrepreneurship
+  completion: 2
+
+############################################
+# Work
+############################################
+- task: IBM Architectural Thinking Course
+  category: work
+  completion: 0
+
+- task: Solution Architect Course
+  category: work
+  completion: 0
+ 
+- task: Band 8 by September 2020
+  category: work
+  completion: 0
+  
+############################################
+# Finance
+############################################
+- task: Get corporate AMEX money back
+  category: finance
+  completion: 0
