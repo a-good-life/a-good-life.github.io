@@ -5,24 +5,31 @@
   category: health
   completion: 0
 
+- task: Run 5k in 20 minutes
+  category: health
+  completion: 15
+
+- task: Daily stretch for full leg extensions
+  category: health
+  completion: 10
+
 ############################################
 # fitness
 ############################################
-- task: Run 5k in 20 minutes
-  category: fitness
-  completion: 15
-
-- task: 20 pullups
-  category: fitness
-  completion: 7
-
-- task: 10 one-arm pushups
-  category: fitness
-  completion: 0
 
 - task: 50 squats daily
   category: fitness
   completion: 0
+
+- task: 20 pullups
+  category: fitness
+  completion: 35
+
+- task: Routine - Press-ups > Burpees > Squat Jumps (20,15,10,5)
+  category: fitness
+  completion: 0
+# add 1% for everytime you do this workout
+
 
 ############################################
 # Learning
