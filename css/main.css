@@ -78,6 +78,9 @@ a:hover, a:active {
   color: var(--Pink);
   transition: 0.2s;
 }
+li {
+  margin-left: 1.5em;
+}
 
 /*****************************************************************************/
 /*
@@ -293,6 +296,13 @@ h3 {
   padding: 0;
 }
 
+.card.intro {
+  background-color: rgb(38, 27, 100);
+  color: #FFF;
+  border: 2px solid rgb(38, 27, 100);
+  box-shadow: 0 8px 16px 0 rgba(34,50,84,.06);
+}
+
 .card.work {
   border-color: var(--Orange);
 }
@@ -385,8 +395,6 @@ h3 {
   color: #000;
 }
 
-.button:active {
-}
 
 /* ---- button-group ---- */
 

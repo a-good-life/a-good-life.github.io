@@ -26,6 +26,7 @@ title: A Good Life
 {% assign tasks = site.data.tasks | sort: 'completion' | reverse %}
 
 <div class="grid-sizer"></div>
+  
 {% for goals in goals %}
   	<div class="card {{ goals.category }}">
       <h3 class="card-category {{ goals.category }}">{{ goals.category }}</h3>
@@ -56,7 +57,13 @@ title: A Good Life
           {% endfor %}
         </div>
   	</div>
-
 {% endfor %}
+
+<div class="card intro">
+  <h1 class="card-title">Goals advice</h1>
+  <ul>
+    <li>Focus on the process, not the goal. It's the process that builds a meaningful habit.</li>
+  </ul>
+</div>
 </div>
 
