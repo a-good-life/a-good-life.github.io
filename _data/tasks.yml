@@ -5,31 +5,28 @@
   category: health
   completion: 0
 
-- task: Run 5k in 20 minutes
+- task: Drink a 600kcal shake every day after exercise
   category: health
-  completion: 15
-
-- task: Daily stretch for full leg extensions
-  category: health
-  completion: 10
+  completion: 20
 
 ############################################
 # fitness
 ############################################
+- task: Run 5k in 20 minutes
+  category: fitness
+  completion: 15
+
+- task: 20 pullups
+  category: fitness
+  completion: 7
+
+- task: 10 one-arm pushups
+  category: fitness
+  completion: 0
 
 - task: 50 squats daily
   category: fitness
   completion: 0
-
-- task: 20 pullups
-  category: fitness
-  completion: 35
-
-- task: Routine - Press-ups > Burpees > Squat Jumps (20,15,10,5)
-  category: fitness
-  completion: 0
-# add 1% for everytime you do this workout
-
 
 ############################################
 # Learning
@@ -48,7 +45,7 @@
 
 - task: Read Atomic Habits
   category: learning
-  completion: 0
+  completion: 40
 
 - task: Read Stumbling on Happiness
   category: learning
@@ -66,6 +63,7 @@
   category: learning
   completion: 10
 
+
 ############################################
 # Project
 ############################################
@@ -80,6 +78,10 @@
   category: entrepreneurship
   completion: 5
 
+- task: Make the upvote life tips
+  category: entrepreneurship
+  completion: 5
+
 - task: Potentially leverage freelancers
   category: entrepreneurship
   completion: 0
@@ -87,6 +89,17 @@
 - task: Include logins, goal suggestions, charting
   category: entrepreneurship
   completion: 2
+
+############################################
+# programming
+############################################
+- task: Take a course in javascript and react
+  category: programming
+  completion: 0
+
+- task: Create a couple of mini apps from scratch using JS
+  category: programming
+  completion: 0
 
 ############################################
 # Work
