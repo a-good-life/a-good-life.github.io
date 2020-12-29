@@ -7,27 +7,23 @@ title: A Good Life
 	hamishl
 </div>-->
 <div class="title">
-
-  
   <div id="filters" class="button-group">  
-    <button class="button"><a href="2019.html">2019</a></button>
-    <button class="button"><a href="2020.html">2019</a></button>
+    <button class="button" data-filter=".mindset"> </button>
   </div>
   
   <div class="button-id">
   </div>
   
   <div id="sorts" class="button-group">  
-    <button class="button" data-sort-by="title"></button>
+    <button class="button" data-sort-by="title"> </button>
   </div>
 </div>
 
 <div class="grid">
-{% assign goals = site.data.goals | sort: 'priority' %}
-{% assign tasks = site.data.tasks | sort: 'completion' | reverse %}
+{% assign goals = site.data.goals2020 | sort: 'priority' %}
+{% assign tasks = site.data.tasks2020 | sort: 'completion' | reverse %}
 
 <div class="grid-sizer"></div>
-  
 {% for goals in goals %}
   	<div class="card {{ goals.category }}">
       <h3 class="card-category {{ goals.category }}">{{ goals.category }}</h3>
@@ -58,13 +54,7 @@ title: A Good Life
           {% endfor %}
         </div>
   	</div>
-{% endfor %}
 
-<div class="card intro">
-  <h1 class="card-title">Goals advice</h1>
-  <ul>
-    <li>Focus on the process, not the goal. It's the process that builds a meaningful habit.</li>
-  </ul>
-</div>
+{% endfor %}
 </div>
 

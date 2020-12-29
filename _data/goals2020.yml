@@ -1,0 +1,33 @@
+- category: health
+  goal: Be stronger
+  priority: 1
+
+- category: learning
+  goal: Read 24 books in 2020
+  priority: 3
+
+- category: programming
+  goal: Become a strong programmer in 2020
+  priority: 3.2
+
+- category: fitness
+  goal: Decide on a routine, and perform it every day
+  priority: 2
+
+- category: finance
+  goal: Simplify, automate and save £1200 per month in 2020
+  priority: 5
+
+- category: project
+  goal: Build out web projects, including using Firebase
+  priority: 4
+
+- category: work
+  goal: Technical Architect band 8 by end of 2020
+  priority: 6
+
+- category: entrepreneurship
+  goal: Try something! Start small and make a product
+  priority: 1.1
+
+
