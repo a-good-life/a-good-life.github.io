@@ -1,18 +1,15 @@
 ############################################
 # Health
 ############################################
-- task: Track macros daily to gain 1kg per month (70kg/80kg)
-  category: health
-  completion: 0
 
-- task: Drink a 600kcal shake every day after exercise
+- task: Drink a shake every day after exercise
   category: health
-  completion: 20
+  completion: 10
 
 ############################################
 # fitness
 ############################################
-- task: Run 5k in 20 minutes
+- task: Run 5k in 20 minutes (current 24mins)
   category: fitness
   completion: 15
 
@@ -20,11 +17,15 @@
   category: fitness
   completion: 7
 
-- task: 10 one-arm pushups
+- task: 10 decline diamond pushups
   category: fitness
   completion: 0
 
-- task: 50 squats daily
+- task: 50 squats
+  category: fitness
+  completion: 0
+
+- task: Stretches - cat camels, hamstrings, ACL physio
   category: fitness
   completion: 0
 
@@ -48,13 +49,6 @@
   category: learning
   completion: 10
 
-
-############################################
-# Project
-############################################
-- task: Finish A Good Life dynamic with Firebase
-  category: project
-  completion: 0
 
 ############################################
 # entrepreneurship
