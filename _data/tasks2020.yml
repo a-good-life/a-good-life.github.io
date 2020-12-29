@@ -69,26 +69,22 @@
 ############################################
 - task: Finish A Good Life dynamic with Firebase
   category: project
-  completion: 0
+  completion: 55
 
 ############################################
 # entrepreneurship
 ############################################
 - task: Make A Good Life into a proper web-app
   category: entrepreneurship
-  completion: 5
+  completion: 55
 
 - task: Make the upvote life tips
   category: entrepreneurship
-  completion: 5
-
-- task: Potentially leverage freelancers
-  category: entrepreneurship
-  completion: 0
+  completion: 100
 
 - task: Include logins, goal suggestions, charting
   category: entrepreneurship
-  completion: 2
+  completion: 5
 
 ############################################
 # programming

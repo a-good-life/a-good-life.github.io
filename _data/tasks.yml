@@ -31,29 +31,14 @@
 ############################################
 # Learning
 ############################################
-- task: Read Life 3.0
-  category: learning
-  completion: 100
 
 - task: Read Churchill
   category: learning
   completion: 5
 
-- task: Read The Wind-up Bird Chronicle
-  category: learning
-  completion: 100
-
 - task: Read Atomic Habits
   category: learning
   completion: 25
-
-- task: Read Stumbling on Happiness
-  category: learning
-  completion: 100
-
-- task: Read Prisoners of Geography
-  category: learning
-  completion: 100
 
 - task: Read If Only they Didn't Speak English
   category: learning
@@ -74,21 +59,13 @@
 ############################################
 # entrepreneurship
 ############################################
-- task: Make A Good Life into a proper web-app
-  category: entrepreneurship
-  completion: 5
-
-- task: Make the upvote life tips
-  category: entrepreneurship
-  completion: 5
-
-- task: Potentially leverage freelancers
+- task: xxx
   category: entrepreneurship
   completion: 0
 
-- task: Include logins, goal suggestions, charting
+- task: xxx
   category: entrepreneurship
-  completion: 2
+  completion: 0
 
 ############################################
 # programming
@@ -112,16 +89,17 @@
   category: work
   completion: 0
  
-- task: Band 8 by September 2020
+- task: Band 8 by September 2021
   category: work
   completion: 0
   
 ############################################
 # Finance
 ############################################
-- task: Get corporate AMEX money back
+- task: Save £2000 per month in 2020
   category: finance
   completion: 100
-- task: Save £1200 per month in 2020
+
+- task: Donate £240 in 2021 to effective giving charities
   category: finance
-  completion: 100
+  completion: 10
