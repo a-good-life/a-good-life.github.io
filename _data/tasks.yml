@@ -17,7 +17,7 @@
   category: fitness
   completion: 7
 
-- task: 10 decline diamond pushups
+- task: 10 decline close pushups
   category: fitness
   completion: 0
 
@@ -70,7 +70,7 @@
 
 - task: Create a couple of mini apps from scratch using JS
   category: programming
-  completion: 0
+  completion: 50
 
 ############################################
 # Work
@@ -85,15 +85,15 @@
  
 - task: Band 8 by September 2021
   category: work
-  completion: 0
+  completion: 100
   
 ############################################
 # Finance
 ############################################
-- task: Save £2000 per month in 2020
+- task: Save £3000 per month in 2021
   category: finance
   completion: 100
 
 - task: Donate £240 in 2021 to effective giving charities
   category: finance
-  completion: 10
+  completion: 50
